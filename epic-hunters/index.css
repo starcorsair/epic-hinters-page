@@ -1,0 +1,273 @@
+/* STYLES*/
+
+/*body*/
+.body {
+  background-image: url("images/background.png");
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* header */
+
+.header {
+  margin-left: 106px;
+  margin-right: 34px;
+  padding-top: 40px;
+}
+
+/* navbar */
+
+.nav {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 52px;
+}
+
+/* flexbox*/
+
+.flex_url {
+  display: flex;
+  column-gap: 40px;
+  height: 20px;
+  margin-top: 18px;
+}
+
+.flex_search {
+  margin-left: auto;
+  margin-top: 12px;
+}
+
+/* nav logo */
+
+.nav_logo {
+  width: 140px;
+  height: 45px;
+}
+
+/* nav url */
+
+.nav_url {
+  font-family: "Actay Regular", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+  height: 20px;
+}
+
+.nav_url:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav_url:hover {
+  color: #ececec;
+}
+
+/*search form*/
+
+.nav_search {
+  padding: 0px;
+  margin: 0px;
+  width: 173px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #fff;
+}
+.nav-form {
+  box-sizing: border-box;
+  white-space: nowrap;
+  width: 173px;
+  height: 20px;
+}
+.search-button {
+  width: 16px;
+  height: 16px;
+  padding: 0px;
+  margin-left: 20px;
+  padding-bottom: 0px;
+  border: none;
+  background: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  background-image: url("images/arrow.svg");
+}
+
+.search-button:active {
+  background-image: url("images/arrow.svg");
+}
+
+.search-input {
+  padding: 0px;
+  width: 137px;
+  height: 20px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background: none;
+  background-color: transparent;
+  font-family: "Actay Regular", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+.search-input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+}
+
+::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+/* main*/
+
+.main_head {
+  font-family: "Actay Wide Bold", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  font-weight: 700;
+  font-size: 90px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+}
+
+/* STYLES OFF*/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  line-height: 1.5;
+  padding: 0;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Make sure textarea without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+/* FONTS */
+@font-face {
+  font-family: "Actay Regular";
+  src: url(fonts/Actay-Regular.otf);
+}
+@font-face {
+  font-family: "Actay Regular Italic";
+  src: url(fonts/Actay-RegularItalic.otf);
+}
+@font-face {
+  font-family: "Actay Condensed Thin";
+  src: url(fonts/ActayCondensed-Thin.otf);
+}
+@font-face {
+  font-family: "Actay Condensed Thin Italic";
+  src: url(fonts/ActayCondensed-ThinItalic.otf);
+}
+@font-face {
+  font-family: "Actay Wide Bold";
+  src: url(fonts/ActayWide-Bold.otf);
+}
+@font-face {
+  font-family: "Actay Wide Bold Italic";
+  src: url(fonts/ActayWide-BoldItalic.otf);
+}
