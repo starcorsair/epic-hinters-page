@@ -1,0 +1,31 @@
+<svg width="312.162964" height="101.000000" viewBox="0 0 312.163 101" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_2_2_dd" x="0.000000" y="22.000000" width="286.000000" height="79.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feGaussianBlur in="BackgroundImage" stdDeviation="5"/>
+			<feComposite in2="SourceAlpha" operator="in" result="effect_backgroundBlur_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_backgroundBlur_1" result="shape"/>
+		</filter>
+		<filter id="filter_2_4_dd" x="269.000000" y="0.000000" width="43.162964" height="60.145721" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="5"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.35 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+	</defs>
+	<rect id="Frame 229" width="286.000000" height="79.000000" transform="translate(0.000000 22.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g filter="url(#filter_2_2_dd)">
+		<path id="image 6" d="M35 22L286 22L286 66C286 85.33 270.32 101 251 101L0 101L0 57C0 37.66 15.67 22 35 22Z" fill="#FFFFFF" fill-opacity="0.300000" fill-rule="evenodd"/>
+		<path id="image 6" d="M286 22L286 66C286 85.33 270.32 101 251 101L0 101L0 57C0 37.66 15.67 22 35 22L286 22ZM283 25L283 66C283 83.67 268.67 98 251 98L3 98L3 57C3 39.32 17.32 25 35 25L283 25Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<g filter="url(#filter_2_4_dd)">
+		<path id="Vector" d="M284 17.57L284 40.83C284 41.15 284.42 41.26 284.58 40.98L296.26 20.87C298.81 16.49 295.64 11 290.57 11C286.94 11 284 13.94 284 17.57Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
