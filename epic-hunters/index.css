@@ -171,11 +171,13 @@
 .main_container-grid {
   padding: 0px;
   margin-top: 48px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 /* grid cells */
 
-.grid {
+.grid_bubble {
   width: 301px;
   height: 89px;
   padding: 0px;
@@ -187,14 +189,10 @@
 .grid_background {
   display: flex;
   flex-flow: row nowrap;
-  background-image: url("images/grid_group-copy.svg");
+  background-image: url("images/grid_group.svg");
   background-repeat: no-repeat;
+  background-position: bottom right;
   background-size: cover;
-  /*
-  background-size: 286px 89px;
-    width: 286px;
-  height: 89px;
-  */
 }
 
 /*grid text*/
@@ -205,8 +203,8 @@
   letter-spacing: 0px;
   text-align: left;
   color: #f6ffd2;
-  margin-top: 32px;
-  margin-bottom: 21px;
+  margin-top: 27px;
+  margin-right: 30px;
 }
 
 /* grid image*/
@@ -215,7 +213,6 @@
   width: 51px;
   height: 51px;
   margin-top: 27px;
-  margin-bottom: 14px;
   margin-left: 15px;
   margin-right: 10px;
   /*
