@@ -173,6 +173,7 @@
   margin-top: 48px;
   margin-left: 70px;
   margin-right: 70px;
+  position: relative;
 }
 
 /* grid cells */
@@ -222,6 +223,52 @@
   */
 }
 
+/* gird dots */
+
+.grid_dot-1 {
+  background-image: url("images/dotted-1.svg");
+  background-repeat: no-repeat;
+  /*background-size: cover;
+  background-position: top left; */
+  width: 210px;
+  height: 122px;
+}
+
+.grid_dot-2 {
+  background-image: url("images/dotted-2.svg");
+  background-repeat: no-repeat;
+  width: 142px;
+  height: 109px;
+}
+
+.grid_dot-3 {
+  background-image: url("images/dotted-3.svg");
+  background-repeat: no-repeat;
+  width: 210px;
+  height: 122px;
+}
+
+.grid_dot-4 {
+  background-image: url("images/dotted-4.svg");
+  background-repeat: no-repeat;
+  width: 226px;
+  height: 134px;
+}
+
+.grid_dot-5 {
+  background-image: url("images/dotted-5.svg");
+  background-repeat: no-repeat;
+  width: 213px;
+  height: 122px;
+}
+
+/*grid dot index */
+
+.grid_dot-index {
+  position: relative;
+  z-index: 5;
+}
+
 /* STYLES OFF*/
 /* Box sizing rules */
 *,
@@ -237,7 +284,7 @@ html {
   text-size-adjust: none;
   margin: 0;
   padding: 0;
-  height: 100%;
+  overflow-x: hidden;
 }
 
 /* Remove default margin in favour of better control in authored CSS */
