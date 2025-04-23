@@ -25,7 +25,18 @@
           <input type="checkbox" id="burger-checkbox" class="burger-checkbox" />
           <label for="burger-checkbox" class="burger"></label>
           <div class="burger_menu">
-            <div class="burger_nav"></div>
+            <div class="burger_nav">
+              <!--logo-->
+              <a href="#" class="nav_logo-burger"
+                ><img
+                  src="images/лого_2.svg"
+                  class="nav_logo-image-burger"
+                  alt="Logo"
+              /></a>
+              <!--link-->
+              <a href="#" class="burger_nav-link">Loren Ipsum</a>
+            </div>
+            <!--list-->
             <ul class="menu_list">
               <li class="list-point">
                 <a href="#" class="list-item">Loren Ipsum</a>
@@ -37,6 +48,19 @@
                 <a href="#" class="list-item">Loren Ipsum</a>
               </li>
             </ul>
+            <div class="flex_search-mobile">
+              <div class="nav_search-mobile">
+                <form action="/search" method="get" class="nav-form-mobile">
+                  <input
+                    type="search"
+                    name="query"
+                    placeholder="Loren Ipsum"
+                    class="search-input-mobile"
+                  />
+                  <button type="submit" class="search-button-mobile"></button>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
         <!--end mobile-->
