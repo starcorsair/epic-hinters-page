@@ -666,6 +666,20 @@
     transition: 0.3s;
   }
 
+  /* burger menu footer */
+
+  .burger_menu-footer {
+    padding: 0px;
+    margin: 0px;
+    top: 50vh;
+    left: 0;
+    position: absolute;
+    background: #0000008f;
+    width: 100vw;
+    height: 50vh;
+    transition: 0.3s;
+  }
+
   .menu_list {
     margin: 20px 0px 0px 0px;
     padding: 0;
