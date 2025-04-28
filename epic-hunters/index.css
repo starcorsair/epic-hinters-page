@@ -8,6 +8,7 @@
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
+  overflow: hidden;
 }
 
 /* header */
@@ -42,7 +43,7 @@
 
 /* nav logo */
 
-.nav_logo {
+.nav_logo-image {
   width: 140px;
   height: 45px;
 }
@@ -330,6 +331,115 @@
 }
 
 /* PC SCREENS SIZES FOR GRID BLOCK*/
+
+/* 2560 */
+
+@media (min-width: 1921px) and (max-width: 2560px) {
+  .header {
+    margin-top: 40px;
+    padding-top: 0px;
+  }
+  .nav_logo-image {
+    width: 280px;
+    height: 90px;
+  }
+
+  .nav_url {
+    font-size: 40px;
+  }
+
+  .main_head {
+    font-size: 100px;
+  }
+
+  /*
+
+  .nav-search {
+    width: 346px;
+    height: 45px;
+  }
+
+  .search-input {
+    font-size: 40px;
+  }
+  .nav-form {
+    width: 346px;
+    height: 40px;
+  }
+
+  */
+
+  .grid_background {
+    width: 624px;
+    height: 202px;
+  }
+
+  .bubble-1 {
+    left: 125px;
+    top: 96px;
+  }
+
+  .bubble-2 {
+    left: 269px;
+    top: 588px;
+  }
+
+  .bubble-3 {
+    left: 994px;
+    top: 782px;
+  }
+
+  .bubble-4 {
+    left: 850px;
+    top: 322px;
+  }
+  .bubble-5 {
+    left: unset;
+    right: 125px;
+    top: 178px;
+  }
+
+  .bubble-6 {
+    right: 418px;
+    top: 490px;
+  }
+
+  .grid_dot-1 {
+    width: 424px;
+    height: 460px;
+    left: 210px;
+    top: 274px;
+  }
+
+  .grid_dot-2 {
+    width: 386px;
+    height: 338px;
+    left: 680px;
+    top: 763px;
+  }
+
+  .grid_dot-3 {
+    width: 418px;
+    height: 464px;
+    left: 1090px;
+    top: 480px;
+  }
+
+  .grid_dot-4 {
+    width: 616px;
+    height: 218px;
+    left: 1344px;
+    top: 260px;
+  }
+
+  .grid_dot-5 {
+    background-size: cover;
+    right: 141px;
+    top: 360px;
+    width: 500px;
+    height: 360px;
+  }
+}
 
 /* 1920 */
 
@@ -663,7 +773,7 @@
     width: 100vw;
     height: 50vh;
     transform: translateX(-100%);
-    transition: 0.3s;
+    transition: 0.2s;
   }
 
   /* burger menu footer */
@@ -677,7 +787,6 @@
     background: #0000008f;
     width: 100vw;
     height: 50vh;
-    transition: 0.3s;
   }
 
   .menu_list {
